@@ -4,7 +4,7 @@ The Network of Thrones is a network analysis project that gathers characters' na
 
 I have taken the data for each book and extracted to python and analysed using networkx library.
 
-The code ............ of ----- parts
+The code consist of those parts:
 
 1. Reading in datasets, creating and feeding the graph 
 2. A function calculating the metrics of graph (centralities, correlation between centralities, degree distribution, log-log degree dist.)
@@ -12,3 +12,4 @@ The code ............ of ----- parts
 4. Functions calculating node connectivity and assortativity
 5. A function attacking the graph randomly and targeting the most central nodes and draws a biggest component - # of targeting attacks plot, 
 input parameters are (A graph, number of targeting attack, node percentage of random attacks)
+6. A function that attacks just on the most central nodes and reports the connectivity status
